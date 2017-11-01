@@ -25,10 +25,10 @@ class ViewController: UIViewController {
         // Touch ID・Face IDが利用できるデバイスか確認する
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
             switch context.biometryType {
-            case .typeFaceID:
+            case .faceID:
                 description = "アカウント情報を閲覧するためにFace IDを認証として用います。"
                 break
-            case .typeTouchID:
+            case .touchID:
                 description = "アカウント情報を閲覧するためにTouch IDを認証として用います。"
                 break
             case .none:
