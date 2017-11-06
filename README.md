@@ -1,4 +1,4 @@
-# AuthenticationTest 
+# AuthenticationTest
 ## Development environment
 * Xcode 9.1, 9.2 beta
 * macOS 10.12.6 or later
@@ -41,3 +41,15 @@ Conversely, if you choose `Non-matching Face` ...
 Failed.
 
 ![failed.png](https://qiita-image-store.s3.amazonaws.com/0/88266/4ccdf1f2-7535-bc4b-dc07-930160cb35ed.png "failed.png")
+
+## Add 2017.11.06
+I got iPhoneX. I checked whether it's working!
+
+### Tap button and success at first try.
+![successFirstTry.gif](https://qiita-image-store.s3.amazonaws.com/0/88266/1460f416-70ba-9984-40fc-eb1d044ff1e0.gif)
+
+### The first try failed and the second succeed.
+![success_at_twice.gif](https://qiita-image-store.s3.amazonaws.com/0/88266/b39396b7-c9c1-257f-1dfa-de70126a661f.gif)
+
+### Failed.
+![failed.gif](https://qiita-image-store.s3.amazonaws.com/0/88266/f0a6eb10-44b8-3281-43cc-c46c4c1c6ac9.gif)
